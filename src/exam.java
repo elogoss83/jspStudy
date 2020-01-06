@@ -19,7 +19,7 @@ public class exam extends HttpServlet {
 		response.setContentType("text/html;charset=UTF-8");
 		String action = request.getParameter("action");
 		PrintWriter out = response.getWriter();
-
+//gittest
 		if (action == null) {
 			out.print("안녕하세요");
 		} else if (action.equals("printGuGu1")) {
