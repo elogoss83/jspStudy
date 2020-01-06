@@ -12,6 +12,7 @@
 
 <%-- 문제 4. ArrayList를 임포트해서 ArrayList를 이용해 1~10까지 저장하고 출력해주세요. --%>
 <h1>ArrayList를 이용해 1~10까지 저장하고 출력</h1>
+<%-- gittest --%>
 <%
 	ArrayList<Integer> nl = new ArrayList<Integer>();
 	for (int i = 1; i <= 10; i++) {
